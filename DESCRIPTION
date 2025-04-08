@@ -1,8 +1,8 @@
 Package: Andromeda
 Type: Package
 Title: Asynchronous Disk-Based Representation of Massive Data
-Version: 0.6.7
-Date: 2024-08-21
+Version: 1.0.0
+Date: 2025-04-08
 Authors@R: c(
   person("Adam", "Black", , "black@ohdsi.org", role = c("aut")),
   person("Egill", "Fridgeirsson", , "e.fridgeirsson@erasmusmc.nl", role = c("aut")),
@@ -17,15 +17,14 @@ VignetteBuilder: knitr
 URL: https://github.com/OHDSI/Andromeda
 BugReports: https://github.com/OHDSI/Andromeda/issues
 Depends: dplyr
-Imports: RSQLite, DBI, zip, methods, dbplyr, tidyselect, cli, rlang,
-        pillar, hms
-Suggests: testthat, stringr, knitr, rmarkdown, tibble, rJava,
-        rcmdcheck, arrow
+Imports: DBI, zip, methods, dbplyr, tidyselect, cli, rlang, pillar,
+        duckdb
+Suggests: testthat, stringr, knitr, rmarkdown, tibble, rJava, rcmdcheck
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2024-08-22 11:26:56 UTC; schuemie
+Packaged: 2025-04-08 11:47:13 UTC; schuemie
 Author: Adam Black [aut],
   Egill Fridgeirsson [aut],
   Martijn Schuemie [aut, cre],
