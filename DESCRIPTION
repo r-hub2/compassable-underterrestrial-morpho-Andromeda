@@ -24,7 +24,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2025-04-08 11:47:13 UTC; schuemie
+Packaged: 2025-04-09 06:34:42 UTC; schuemie
 Author: Adam Black [aut],
   Egill Fridgeirsson [aut],
   Martijn Schuemie [aut, cre],
